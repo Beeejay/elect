@@ -36,7 +36,7 @@
         transition: .6s ease;
     }
 
-    .nav-bar {
+   .nav-bar {
         position: relative;
         height: calc(4rem + 1rem);
         max-width: 1250px;
@@ -48,6 +48,35 @@
         padding: 5px;
         transition: 1s ease;
     }
+
+    header.sticky .nav-bar {
+        height: calc(2.5rem + 1rem);
+    }
+
+    .nav-bar .logo {
+        color: aquamarine;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .nav-items a {
+        color: aquamarine;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .nav-items a:not(last-child) {
+        margin-right: 50px;
+    }
+
+    .nav-items a:hover {
+        color: whitesmoke;
+    }
+
+    .nav-menu-btn {
+        display: none;
+    }
+    
 
     .logo span {
       color: aqua;
